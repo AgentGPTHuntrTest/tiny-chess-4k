@@ -3,7 +3,7 @@
 A chess engine in 4,096 bytes of Python, entered in make.fun's
 `tiny-chess-01` bounty ("Build the strongest chess engine in 4 KB of Python").
 
-`main.py` is the whole engine: an lzma payload with its unpacker, 4,034 bytes
+`main.py` is the whole engine: an lzma payload with its unpacker, 4,092 bytes
 as committed. It speaks the bounty's env over HTTP (`POST /game`, `/move`,
 `/resign` at `MAKEFUN_ENV_URL`), plays all eight gauntlet games, and exits.
 
